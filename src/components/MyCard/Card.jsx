@@ -21,7 +21,7 @@ const MyCard = () => {
             <section className='w-[1120px] m-auto flex gap-4'>
             {MyCardData?.map(item => {
                 return(
-                    <div className="overflow-hidden rounded bg-white text-slate-500 shadow-md shadow-slate-200 w-[300px] h-[500px]">
+                    <div className="overflow-hidden rounded bg-white text-slate-500 shadow-md shadow-slate-200 w-[300px] h-[350px]">
                     {/*  <!-- Image --> */}
                     <figure>
                       <img src={item?.img}
